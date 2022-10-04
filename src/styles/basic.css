@@ -1,0 +1,38 @@
+body {
+    padding:0;
+    margin:0;
+    font-family: 'Verdana', sans-serif;
+}
+
+.chatApp {
+    background-color: #424242;
+    color: #f9f9f9;
+    padding: 1rem 40px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 1rem;
+    width: 60%;
+    height: 40%;
+}
+
+.chatApp h1 {
+    margin: 1.5rem 0;
+}
+
+.chatApp .dialogs {
+    flex-grow: 1;
+    margin-bottom: 10px;
+    overflow-y: auto;
+}
+
+.chatApp .dialogs .dialog {
+    padding: .5rem 0;
+}
+
+.chatApp .commands textarea {
+    width: 100%;
+    padding: 0.5rem;
+    outline: none;
+}
